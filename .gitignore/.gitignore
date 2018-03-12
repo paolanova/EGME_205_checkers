@@ -1,0 +1,16 @@
+% tictactoe.m
+% Author: group members
+% Date modified: 02/21/2018
+% Description: Two-player tic tac toe
+
+close all;  % closes all open figures
+clear all;  % clears all previously defined variables
+clc;        % clears the command prompt
+
+% Initialize the game board
+% [] = white {} = black
+board = ['[ ]','{G}','[ ]','{G}','[ ]','{G}','[ ]','{G}';'{G}','[ ]','{G}','[ ]','{G}','[ ]','{G}','[ ]';'[ ]','{G}','[ ]','{G}','[ ]','{G}','[ ]','{G}';'{ }','[ ]','{ }','[ ]','{ }','[ ]','{ }','[ ]';'[ ]','{ }','[ ]','{ }','[ ]','{ }','[ ]','{ }';'{R}','[ ]','{R}','[ ]','{R}','[ ]','{R}','[ ]';'[ ]','{R}','[ ]','{R}','[ ]','{R}','[ ]','{R}';'{R}','[ ]','{R}','[ ]','{R}','[ ]','{R}','[ ]'];
+while 1==1 
+    disp(board)
+    move = input('\nPlayer 1 make your move \nenter a [row,column]')
+end
